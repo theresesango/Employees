@@ -1,0 +1,52 @@
+@import './../styles/variables.module.scss';
+
+* {
+	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+	&:focus {
+		outline: 2px solid $color-accent;
+	}
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+	color: $color-neutral-400;
+	background-color: $color-white;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: $color-primary;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.skip-to-main-content-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: $color-black;
+  color: $color-white;
+  opacity: 0;
+}
+
+.skip-to-main-content-link:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}

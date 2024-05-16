@@ -1,0 +1,33 @@
+@import './variables.module.scss';
+
+.form {
+	border: 1px solid $color-neutral-200;
+	padding: 0.5rem;
+	width: clamp(300px, 33%, 500px);
+	position: relative;
+
+	> .label {
+		position: absolute;
+  	top: -0.75rem;
+		background-color: $color-neutral-100;
+		padding: 0 0.5rem;
+	}
+}
+
+.formGroup {
+	padding: 0.5rem;
+
+	> .label {
+		margin-right: 0.5rem;
+	}
+}
+
+.input {
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.select {
+	padding: 0.5rem;
+	width: 100%;
+}

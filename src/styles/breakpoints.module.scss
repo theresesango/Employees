@@ -1,0 +1,11 @@
+$mobile: 0;
+$tablet: 600px;
+$desktop: 1024px;
+$desktopXl: 1200px;
+ 
+:export {
+  mobile: $mobile;
+	tablet: $tablet;
+	desktop: $desktop;
+	desktopXl: $desktopXl;
+}

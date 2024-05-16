@@ -1,0 +1,17 @@
+$color-primary: #F7F5E9; 
+$color-accent: #4D4844; 
+$color-black: #000000;
+$color-white: #ffffff;
+
+$color-neutral-500: #04060c;
+$color-neutral-400: #202636;
+$color-neutral-300: #4b505f;
+$color-neutral-200: #cbcbcb;
+$color-neutral-100: #f0f0f0;
+
+:export {
+  colorPrimary: $color-primary;
+  colorAccent: $color-accent;
+	colorBack: $color-black;
+	colorWhite: $color-white;
+}

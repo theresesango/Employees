@@ -1,0 +1,29 @@
+@import './../styles/breakpoints.module.scss';
+@import './../styles/variables.module.scss';
+
+.page {
+	display: flex;
+  flex-direction: column;
+	padding: 2rem 1rem;
+	max-width: 1800px;
+	margin: 0 auto;
+
+	@media (min-width: $tablet) {
+		padding: 3rem 2rem 2rem;
+	}
+	
+	@media (min-width: $desktop) {
+		padding: 6rem;
+	}
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+	padding: 6rem 0;
+	color: $color-accent;
+}
