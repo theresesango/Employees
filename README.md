@@ -1,3 +1,5 @@
+Currently no working API - Only accessable for code viewing purpose. 
+
 ## The Assignment
 - Fetch data from Api
 
